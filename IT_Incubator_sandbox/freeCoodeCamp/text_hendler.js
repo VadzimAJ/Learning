@@ -6,8 +6,7 @@ const rl = readline.createInterface({
 });
 
 function TextHandler(text) {
-  let replace = " ";
-  let handler = text.toLowerCase().replace(/ /g, "_") + ".js";
+  let handler = "touch " + text.toLowerCase().replace(/ /g, "_") + ".js";
   console.log(handler);
 }
 
